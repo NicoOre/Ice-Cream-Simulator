@@ -15,6 +15,7 @@ public class DestruirHelado : MonoBehaviour
     {
         if (gameObject.transform.position.y <= -0.5f)
         {
+            gameObject.GetComponent<AudioSource>().Play();
             Destroy(gameObject);
         }
     }
