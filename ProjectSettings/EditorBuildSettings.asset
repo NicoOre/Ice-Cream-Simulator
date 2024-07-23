@@ -4,7 +4,10 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Heladeria.unity
+    guid: fca017438429a5849adfd7b7266340d3
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 9cd224f681de67e4381b29a37675f49e, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: d7b59704321e10a4c8b76c17f55d03b6, type: 2}
